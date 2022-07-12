@@ -8,23 +8,89 @@
     <title>Dema Mobile</title>
   </head>
   <body>
-    <header id="header">
-      <img src="./img/logo_200x200.png" alt="" id="header-img" />
-      <nav id="nav-bar">
-        <ul>
-          <a href="#home"><li class="nav-link">home</li></a>
-          <a href="#about"><li class="nav-link">about</li></a>
-          <a href="#pricing"><li class="nav-link">pricing</li></a>
-        </ul>
-      </nav>
-      <section>
-        <video width="320" height="240" controls>
-          <source src="" type="video/mp4" />
-        </video>
-      </section>
-      <section>
-        <form id="form">input</form>
-      </section>
-    </header>
+    <section id="home">
+      <header id="header">
+        <img src="./img/logo_200x200.png" alt="" id="header-img" />
+        <nav id="nav-bar">
+          <ul>
+            <a href="#home" class="nav-link"><li>home</li></a>
+            <a href="#features" class="nav-link"><li>features</li></a>
+            <a href="#pricing" class="nav-link"><li>pricing</li></a>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <section id="features">
+      <h2>unlock your desires.</h2>
+      <div class="phone1-details">
+        <div class="img-container">
+          <img
+            src="./img/Apple-iPhone13-family-lineup-220308_big.jpg.slideshow-large.jpg"
+            alt="apple 2022"
+          />
+        </div>
+        <p class="img-title">Iphone 2022</p>
+      </div>
+      <div class="phone2-details">
+        <div class="img-container">
+          <img
+            src="./img/samsung-galaxy-s21-fe-cnet-review-2022-007.webp"
+            alt="samsung 2022"
+          />
+        </div>
+        <p class="img-title">Samsung 2022</p>
+      </div>
+      <div class="phone3-details">
+        <div class="img-container">
+          <img src="./img/mi.jpg" alt="mi 2022" />
+        </div>
+        <p class="img-title">Mi 2022</p>
+      </div>
+    </section>
+    <section>
+      <video width="600" height="300" controls id="video">
+        <source
+          src="https://www.youtube.com/watch?v=I9K6D4oqCq0"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+    <section>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@gmail.com"
+          pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+          required
+        />
+        <input for="email" type="submit" id="submit" />
+      </form>
+    </section>
+    <section id="pricing">
+      <fieldset class="iphone">
+        <legend>Iphone</legend>
+        <p>Iphone 2022</p>
+        <p><Color:Red></Color:Red></p>
+        <p>8gb RAM, 10TB</p>
+        <p class="price">$3200</p>
+      </fieldset>
+      <fieldset class="Samsung">
+        <legend>Samsung</legend>
+        <p>Samsung 2022</p>
+        <p>Color:Pink</p>
+        <p>8gb RAM, 10TB</p>
+        <p class="price">$3000</p>
+      </fieldset>
+      <fieldset class="mi">
+        <legend>MI</legend>
+        <p>MI 2022</p>
+        <p>Color:Yellow</p>
+        <p>8gb RAM, 10TB</p>
+        <p class="price">$2800</p>
+      </fieldset>
+    </section>
   </body>
 </html>
