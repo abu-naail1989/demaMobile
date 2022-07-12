@@ -98,3 +98,14 @@ h2 {
 .phones {
   margin-bottom: 5rem;
 }
+
+form {
+  min-width: 100vw;
+  margin: 3rem 15rem;
+}
+
+input,
+label {
+  font-size: 2.5rem;
+  font-family: var(--cedarville);
+}
