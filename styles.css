@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: var(--clr-grey-10);
+  background: #90bfc4;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -49,7 +49,7 @@ img:not:first-child {
 }
 
 #header {
-  min-height: 100vh;
+  min-height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img/resize-16576335641086855630backgroundimg.jpg") center/cover
       no-repeat fixed;
@@ -157,10 +157,15 @@ fieldset legend {
     display: flex;
     justify-content: space-evenly;
   }
-  form,
+  form {
+    width: 100%;
+    max-width: 40%;
+    margin: 3rem auto;
+    margin-bottom: 10rem;
+  }
   video {
     width: 100%;
-    max-width: 90%;
+    max-width: 80%;
     margin: 3rem auto;
     margin-bottom: 10rem;
   }
